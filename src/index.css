@@ -1,0 +1,76 @@
+:root {
+  --primary: #414040;
+  --secondary: #7db499;
+  --third: #832d46;
+  --font1: #fffceb;
+  --font2: #c3aa4c;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: var(--third);
+}
+
+button {
+  appearance: none;
+  width: 3.5em;
+  height: 3em;
+  color: var(--font1);
+  background-color: var(--primary);
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.operators {
+  display: flex;
+}
+
+.operators button {
+  flex: 1 1 0%;
+  background-color: var(--secondary);
+}
+
+span {
+  height: 4em;
+  width: 10em;
+  background-color: var(--secondary);
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color: whitesmoke;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 2px 40px;
+}
+
+.display {
+  padding: 16px;
+  text-align: right;
+  background-color: var(--font2);
+  font-weight: 600;
+}
