@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
 :root {
   --primary: #414040;
   --secondary: #7db499;
@@ -11,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -65,7 +67,6 @@ button:hover {
 span {
   height: 4em;
   width: 10em;
-  background-color: var(--secondary);
 }
 
 .calculator {
@@ -84,5 +85,5 @@ span {
   font-weight: 600;
   color: whitesmoke;
   font-size: 40px;
-  background-color:#88a597;
+  background-color:#748a7f;
 }
